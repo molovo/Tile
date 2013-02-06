@@ -1,7 +1,7 @@
 <?php
   /*
 	* Tile CMS 
-	* Connect to database code
+	* Config file
   * by Jack Emerson	
 	*/
 	define('HOST', 'localhost');
