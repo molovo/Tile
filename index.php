@@ -2,8 +2,9 @@
   /*
    Tile CMS
 	 by Jack Emerson
-	 Admin Page
+	 Index Page
   */
 	
-	class 
+	
+	
 ?>
