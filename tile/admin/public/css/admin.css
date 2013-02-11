@@ -1,7 +1,23 @@
 h1 {
 	font-weight: normal;
 	font-size: 24px;
+	
 }
 body {
 	font-family: helvetica;
+}
+li {
+	display: inline;
+	padding: 8px;
+}
+#wrap {
+	margin: 0 auto;
+	width: 960px;
+}
+ul {
+	float: right;
+	margin-top: -38px;
+}
+a {
+	text-decoration: none;
 }

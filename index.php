@@ -1,7 +1,7 @@
 <?php
 
 //  Get the config
-$config = require_once 'system/config.php';
+$config = require_once 'config.php';
 
 //  Include the Tile class
 include_once 'tile/tile.php';
@@ -10,4 +10,4 @@ include_once 'tile/tile.php';
 $tile = new Tile($config);
 
 //  And output
-echo $tile->render();
+echo $tile->output();
