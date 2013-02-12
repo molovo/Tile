@@ -2,7 +2,6 @@
 
 class Admin {
 	public function __construct($config) {
-		$this->image = $newImage;
 		$this->connection = new Database($config);
 	}
 	
