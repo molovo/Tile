@@ -1,25 +1,18 @@
 <?php
 
-/*  
-	*
-	Not too sure on this class
-	*
-*/
 class Admin {
-	
-	var $image;
-	var $connection;
-
-	//construct admin variables
-	public function __construct($newImage) {
+	public function __construct($config) {
 		$this->image = $newImage;
-		$this->connection = 
+		$this->connection = new Database($config);
 	}
-
-	//function for storing image variable in database
-	public function storeImage() {
-		$this->connection->query('INSERT $this->image INTO table_name');
-	}
-
 	
+	public function render($view) {
+		$base = $_SERVER['DOCUMENT_ROOT'] . 'admin/page/';
+		
+		if(!file_exists($base . $view . '.php')) {
+			$view = 404;
+		}
+	
+		include_once $base . $view . '.php';
+	}
 }
