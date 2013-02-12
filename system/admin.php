@@ -18,7 +18,7 @@ class Admin {
 
 	//function for storing image variable in database
 	public function storeImage() {
-		$this->connection->query('INSERT $image INTO table_name');
+		$this->connection->query('INSERT $this->image INTO table_name');
 	}
 
 	
