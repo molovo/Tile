@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<div id="wrap">
-			<h1>Edit your tile portfolio</h1>
+			<h1>Welcome to tile's admin interface.</h1>
 			<?php include ('partials/nav.php');?>
 		</div>
 	</body>
